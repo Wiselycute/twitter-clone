@@ -36,7 +36,7 @@ const page =() =>{
       <aside className="w-[250px]  flex flex-col justify-between px-4 py-6">
         <div>
           <div className="text-2xl font-bold text-[#1DA1F2] mb-8">
-            <img src="logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </div>
           <nav className="flex flex-col gap-6 text-[1rem] font-semibold">
             <Link href="/" className="font-semibold text-[#1DA1F2] flex gap-3"> <RiHomeHeartFill size={20} /> Home</Link>
