@@ -33,33 +33,34 @@ const page =() =>{
     <div className="flex bg-background min-h-screen font-sans mx-15">
 
       {/* Left Sidebar */}
-      <aside className="w-[250px]  flex flex-col justify-between px-4 py-6">
+      <aside className="w-[250px]  flex flex-col justify-between px-0 py-2 fixed ">
         <div>
-          <div className="text-2xl font-bold text-[#1DA1F2] mb-8">
-            <img src="/logo.png" alt="logo" />
+          <div className=" text-[#1DA1F2] mb-5">
+            <img src="./logo.png" alt="logo" />
           </div>
           <nav className="flex flex-col gap-6 text-[1rem] font-semibold">
             <Link href="/" className="font-semibold text-[#1DA1F2] flex gap-3"> <RiHomeHeartFill size={20} /> Home</Link>
-            <a href="#" className='flex gap-3'> <CiHashtag size={20} /> Explore</a>
-            <a href="#" className='flex gap-3'> <IoMdNotificationsOutline size={20} />Notifications</a>
-            <a href="#" className='flex gap-3'><FaRegEnvelope size={20} />Messages</a>
-            <a href="#" className='flex gap-3'><CiBookmark size={20} />Bookmarks</a>
-            <a href="#" className='flex gap-3'><CgNotes size={20} />Lists</a>
-            <Link href="/profile" className='flex gap-3'><IoPersonOutline size={20} />Profile</Link>
-            <a href="#" className='flex gap-3'> <CiCircleMore size={20} />More</a>
-            <a href="#" className='flex gap-3'> <ModeToggle />Theme</a>
+            <a href="#" className='flex gap-1'> <CiHashtag size={20} /> Explore</a>
+            <a href="#" className='flex gap-1'> <IoMdNotificationsOutline size={20} />Notifications</a>
+            <a href="#" className='flex gap-1'><FaRegEnvelope size={20} />Messages</a>
+            <a href="#" className='flex gap-1'><CiBookmark size={20} />Bookmarks</a>
+            <a href="#" className='flex gap-1'><CgNotes size={20} />Lists</a>
+            <Link href="/profile" className='flex gap-1'><IoPersonOutline size={20} />Profile</Link>
+            <a href="#" className='flex gap-1'> <CiCircleMore size={20} />More</a>
+            <a href="#" className='flex gap-1'> <ModeToggle size={20}/>Theme</a>
           </nav>
-          <button className="bg-[#1DA1F2] text-white rounded-full mt-6 px-6 py-2 w-full font-semibold">
+          <button className="bg-[#1DA1F2] text-white rounded-full mt-3 px-8 py-2  font-semibold">
             Tweet
           </button>
-        </div>
-        <div className="flex items-center gap-3 mt-6">
+            <div className="flex items-center gap-3 mt-3">
           <img src="/profile1.png" className="rounded-full w-10 h-10" alt="Profile" />
           <div>
             <div className="font-semibold text-sm">Jerome Bell</div>
             <div className="text-sm text-gray-500">@afonsoinocente</div>
           </div>
         </div>
+        </div>
+        
       </aside>
 
       {/* Center Feed */}
